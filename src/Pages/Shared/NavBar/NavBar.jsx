@@ -10,17 +10,22 @@ const NavBar = () => {
       </li>
       <li>
         <NavLink className=" hover:bg-black" to={"/aboutUs"}>
-          About
+          About Us
         </NavLink>
       </li>
       <li>
-        <NavLink className=" hover:bg-black" to={"/services"}>
-          Services
+        <NavLink className=" hover:bg-black" to={"/admission"}>
+          Admission
         </NavLink>
       </li>
       <li>
-        <NavLink className=" hover:bg-black" to={"/nurses"}>
-          Nurses
+        <NavLink className=" hover:bg-black" to={"/class"}>
+          Class
+        </NavLink>
+      </li>
+      <li>
+        <NavLink className=" hover:bg-black" to={"/gallery"}>
+          Gallery
         </NavLink>
       </li>
       <li>
@@ -32,8 +37,8 @@ const NavBar = () => {
   );
 
   return (
-    <div className="navbar bg-green-600 text-neutral-content fixed max-w-screen-xl z-50 ">
-      <div className="navbar-start">
+    <div className="navbar bg-green-600 text-white fixed max-w-screen-xl z-50 ">
+      <div className="">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
             <svg
@@ -53,7 +58,7 @@ const NavBar = () => {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content bg-neutral text-neutral-content bg-opacity-70 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+            className="menu menu-sm dropdown-content bg-green-600 text-white bg-opacity-90 rounded-box z-[1] mt-3 w-52 p-2 shadow"
           >
             {navbarMenu}
           </ul>
@@ -65,7 +70,7 @@ const NavBar = () => {
           </div>
         </Link>
       </div>
-      <div className="navbar-center hidden lg:flex">
+      <div className="navbar-end hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{navbarMenu}</ul>
       </div>
     </div>
