@@ -1,4 +1,8 @@
+import { Link } from "react-router-dom";
 import logo from "../../../assets/LOGO.png";
+import { FaPhoneVolume, FaSquareFacebook } from "react-icons/fa6";
+import { GiRotaryPhone } from "react-icons/gi";
+import { MdEmail } from "react-icons/md";
 
 const Footer = () => {
   return (
@@ -13,24 +17,42 @@ const Footer = () => {
           </p>
         </aside>
         <nav>
-          <h6 className="footer-title">Services</h6>
-          <a className="link link-hover">Branding</a>
-          <a className="link link-hover">Design</a>
-          <a className="link link-hover">Marketing</a>
-          <a className="link link-hover">Advertisement</a>
+          <h6 className="footer-title">Class</h6>
+          <a className="link link-hover">Play</a>
+          <a className="link link-hover">Nursery</a>
+          <a className="link link-hover"> Class-1 to Class-5</a>
+          <a className="link link-hover">Class 6 (Vocational)</a>
         </nav>
         <nav>
           <h6 className="footer-title">Company</h6>
-          <a className="link link-hover">About us</a>
-          <a className="link link-hover">Contact</a>
-          <a className="link link-hover">Jobs</a>
-          <a className="link link-hover">Press kit</a>
+          <Link to="/aboutUs" className="link link-hover">
+            About us
+          </Link>
+          <Link to="/admission" className="link link-hover">
+            Admission
+          </Link>
+          <Link to="/contact" className="link link-hover">
+            Contact
+          </Link>
+          <Link to="/gallery" className="link link-hover">
+            Gallery
+          </Link>
         </nav>
         <nav>
-          <h6 className="footer-title">Legal</h6>
-          <a className="link link-hover">Terms of use</a>
-          <a className="link link-hover">Privacy policy</a>
-          <a className="link link-hover">Cookie policy</a>
+          <h6 className="footer-title">Contact</h6>
+          <p>
+            <FaPhoneVolume className="inline" /> Mobile No: +8801733190417
+          </p>
+          <p>
+            <GiRotaryPhone className="inline" /> Hotline No: +8801313014644
+          </p>
+          <p>
+            <MdEmail className="inline" /> Email: ams@akijfood.com
+          </p>
+          <p>
+            <FaSquareFacebook className="inline" /> Facebook: Akij-Monowara
+            School
+          </p>
         </nav>
       </footer>
       <footer className="footer footer-center bg-base-300 text-base-content p-4">

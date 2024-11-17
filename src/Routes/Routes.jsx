@@ -3,21 +3,38 @@ import Main from "../Layout/Main";
 import Home from "../Pages/Home/Home/Home";
 import PageNotFound from "../Pages/PageNotFound/PageNotFound";
 import Contact from "../Pages/Contact/Contact/Contact";
+import Gallery from "../Pages/Gallery/Gallery/Gallery";
 
-export const router = createBrowserRouter([
+export const router = createBrowserRouter(
+  [
+    {
+      path: "/",
+      element: <Main />,
+      errorElement: <PageNotFound />,
+      children: [
+        {
+          path: "/",
+          element: <Home />,
+        },
+        {
+          path: "/contact",
+          element: <Contact />,
+        },
+        {
+          path: "/gallery",
+          element: <Gallery />,
+        },
+      ],
+    },
+  ],
   {
-    path: "/",
-    element: <Main />,
-    errorElement: <PageNotFound />,
-    children: [
-      {
-        path: "/",
-        element: <Home />,
-      },
-      {
-        path: "/contact",
-        element: <Contact />,
-      },
-    ],
-  },
-]);
+    future: {
+      v7_fetcherPersist: true,
+      v7_normalizeFormMethod: true,
+      v7_partialHydration: true,
+      v7_relativeSplatPath: true,
+      v7_skipActionErrorRevalidation: true,
+      v7_startTransition: true,
+    },
+  }
+);

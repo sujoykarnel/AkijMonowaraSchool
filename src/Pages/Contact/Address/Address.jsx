@@ -11,7 +11,7 @@ import { MdEmail } from "react-icons/md";
 const Address = () => {
   return (
     <div>
-      <SectionTitle heading={"Address and Campus"} />
+      <SectionTitle heading={"Campus & Address"} />
       <div className="md:flex md:columns-2 justify-center gap-4">
         <div className="w-full md:justify-items-center">
           <div>
