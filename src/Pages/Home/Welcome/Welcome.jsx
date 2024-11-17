@@ -1,0 +1,12 @@
+import SectionTitle from "../../../components/SectionTitle/SectionTitle";
+
+const Welcome = () => {
+  return (
+    <div>
+          <SectionTitle heading={"Welcome to Akij-Monowara School"} />
+          <p className="text-justify">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error voluptates obcaecati reprehenderit ea facere tenetur libero ipsam, maxime iure cum soluta atque, eveniet repellat officia odit pariatur optio labore mollitia placeat, architecto accusamus eos repellendus? Provident et dolorem, veritatis quia tenetur in culpa assumenda nihil, omnis aspernatur veniam tempora illo minima eaque optio consectetur odio quae dolore, quas atque fugiat magni quisquam voluptatem molestias! Saepe non ut provident earum est eligendi doloribus beatae soluta, quod molestiae totam repudiandae vel optio ducimus culpa adipisci odit perferendis esse? In, inventore unde sequi, vel tempore nobis voluptates doloribus officia itaque pariatur officiis consectetur ab. Veritatis minus officiis, fugiat dolorum amet eius adipisci quibusdam ipsam distinctio, ad praesentium quos. Fuga, natus ipsa dolores quasi ea veritatis harum delectus vitae, magnam, illo voluptatem! Eligendi culpa fugiat ullam quaerat facilis cumque laboriosam vel unde itaque animi hic et sunt, iure, delectus magni odio voluptatibus assumenda saepe possimus. Quibusdam eos id, sint expedita non nam tempore distinctio voluptate delectus! Necessitatibus provident possimus iure similique rem nam id, doloribus, enim error delectus debitis unde molestias fuga dolor sequi. Quibusdam fugiat nobis minus suscipit ipsum a id, eos incidunt exercitationem cupiditate esse doloremque quas excepturi? Quae, magni impedit consectetur molestiae ad quas numquam, totam nemo sed, soluta explicabo officiis obcaecati pariatur a nihil repellendus inventore eos! Autem corporis incidunt iusto, laudantium explicabo voluptatem esse qui sint neque tenetur adipisci ad commodi excepturi eum alias temporibus voluptates aliquam, magni sapiente perferendis dolor amet odio quae possimus. Eos voluptatibus odio error excepturi? Laboriosam molestiae commodi expedita aliquam perspiciatis consequatur quos cum tempore provident maiores. Rem quos necessitatibus corporis qui eligendi error accusamus ullam consectetur possimus sequi, delectus fuga? Voluptatem commodi cupiditate, quae enim sunt neque. Officiis beatae vitae delectus rem rerum nihil quisquam facilis natus labore eius ratione, quod dolores alias.</p>
+    </div>
+  );
+};
+
+export default Welcome;

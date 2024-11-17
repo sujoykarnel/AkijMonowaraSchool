@@ -58,7 +58,7 @@ const NavBar = () => {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content bg-green-600 text-white bg-opacity-90 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+            className="menu menu-sm dropdown-content bg-green-00 text-white bg-opacity-90 rounded-box z-[1] mt-3 w-52 p-2 shadow"
           >
             {navbarMenu}
           </ul>
@@ -66,7 +66,7 @@ const NavBar = () => {
         <Link to={"/"}>
           <div className="flex text-center items-center">
             <img width={50} src="/src/assets/LOGO.png" alt="" />
-            <h2 className="font-bold text-black">Akij-Monowara School</h2>
+            <h2 className="font-bold text-2xl text-black">Akij-Monowara School</h2>
           </div>
         </Link>
       </div>
