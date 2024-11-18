@@ -24,18 +24,18 @@ const Footer = () => {
           <a className="link link-hover">Class 6 (Vocational)</a>
         </nav>
         <nav>
-          <h6 className="footer-title">Company</h6>
+          <h6 className="footer-title">Go To</h6>
           <Link to="/aboutUs" className="link link-hover">
             About us
           </Link>
           <Link to="/admission" className="link link-hover">
             Admission
           </Link>
-          <Link to="/contact" className="link link-hover">
-            Contact
-          </Link>
           <Link to="/gallery" className="link link-hover">
             Gallery
+          </Link>
+          <Link to="/contact" className="link link-hover">
+            Contact
           </Link>
         </nav>
         <nav>

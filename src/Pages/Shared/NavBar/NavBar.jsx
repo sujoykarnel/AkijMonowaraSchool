@@ -19,8 +19,8 @@ const NavBar = () => {
         </NavLink>
       </li>
       <li>
-        <NavLink className=" hover:bg-black" to={"/class"}>
-          Class
+        <NavLink className=" hover:bg-black" to={"/academic"}>
+          Academic
         </NavLink>
       </li>
       <li>

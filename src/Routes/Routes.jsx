@@ -4,6 +4,7 @@ import Home from "../Pages/Home/Home/Home";
 import PageNotFound from "../Pages/PageNotFound/PageNotFound";
 import Contact from "../Pages/Contact/Contact/Contact";
 import Gallery from "../Pages/Gallery/Gallery/Gallery";
+import AboutUs from "../Pages/AboutUs/AboutUs/AboutUs";
 
 export const router = createBrowserRouter(
   [
@@ -23,6 +24,10 @@ export const router = createBrowserRouter(
         {
           path: "/gallery",
           element: <Gallery />,
+        },
+        {
+          path: "/aboutUs",
+          element: <AboutUs />,
         },
       ],
     },

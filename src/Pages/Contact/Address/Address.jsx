@@ -20,7 +20,7 @@ const Address = () => {
               <FaLocationDot className="inline" /> Campus-1
             </h2>
             <p>Akij Food & Beverage Ltd. Compound</p>
-            <p>Barobaria, Dhamrai, Dhaka</p>
+            <p>Barobaria, Dhamrai, Dhaka-1800</p>
           </div>
         </div>
         <div className="w-full md:justify-items-center">
