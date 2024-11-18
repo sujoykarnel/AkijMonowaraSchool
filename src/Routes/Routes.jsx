@@ -5,6 +5,7 @@ import PageNotFound from "../Pages/PageNotFound/PageNotFound";
 import Contact from "../Pages/Contact/Contact/Contact";
 import Gallery from "../Pages/Gallery/Gallery/Gallery";
 import AboutUs from "../Pages/AboutUs/AboutUs/AboutUs";
+import Academic from "../Pages/Academic/Academic/Academic";
 
 export const router = createBrowserRouter(
   [
@@ -28,6 +29,10 @@ export const router = createBrowserRouter(
         {
           path: "/aboutUs",
           element: <AboutUs />,
+        },
+        {
+          path: "/academic",
+          element: <Academic />,
         },
       ],
     },

@@ -1,5 +1,4 @@
 import SectionTitle from "../../../components/SectionTitle/SectionTitle";
-import { HiCheckCircle } from "react-icons/hi";
 
 const AimOfSchool = () => {
   return (
