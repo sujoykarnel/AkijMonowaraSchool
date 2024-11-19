@@ -11,7 +11,7 @@ const Teachers = () => {
       designation: "Assistant Teacher",
       eduQualification: "B.A. (Hons), M.A. (English) & B. Ed.",
       subject: "English",
-      photo: "",
+      photo: "/src/assets/teachers/mdKayumKhan.jpg",
     },
     {
       id: 2,
@@ -68,12 +68,12 @@ const Teachers = () => {
       designation: "Assistant Teacher",
       eduQualification: "B.A. (Hons), M.A. (English)",
       subject: "English",
-      photo: "",
+      photo: "/src/assets/teachers/suraiaFeardus.jpg",
     },
   ];
   return (
     <div>
-      <SectionTitle heading={"Our Teachers"} />
+      <SectionTitle heading={"Our All Teachers"} />
       <div className="grid md:grid-cols-3 gap-4 justify-items-center">
         {allTeachers.map((teacher) => {
           return <Teacher key={teacher.id} teacher={teacher} />;

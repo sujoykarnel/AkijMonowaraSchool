@@ -1,4 +1,5 @@
 import { Link, NavLink } from "react-router-dom";
+import logo from '../../../assets/others/logo.png'
 
 const NavBar = () => {
   const navbarMenu = (
@@ -65,7 +66,7 @@ const NavBar = () => {
         </div>
         <Link to={"/"}>
           <div className="flex text-center items-center">
-            <img width={50} src="/src/assets/LOGO.png" alt="" />
+            <img width={50} src={logo} alt="" />
             <h2 className="font-bold text-2xl text-black">Akij-Monowara School</h2>
           </div>
         </Link>

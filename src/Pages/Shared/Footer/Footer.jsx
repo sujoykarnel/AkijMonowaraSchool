@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logo from "../../../assets/LOGO.png";
+import logo from "../../../assets/others/logo.png";
 import { FaPhoneVolume, FaSquareFacebook } from "react-icons/fa6";
 import { GiRotaryPhone } from "react-icons/gi";
 import { MdEmail } from "react-icons/md";

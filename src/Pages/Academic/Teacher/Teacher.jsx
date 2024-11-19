@@ -1,3 +1,5 @@
+import imageNotFound from "../../../assets/others/imageNotFound.png";
+
 const Teacher = ({ teacher }) => {
   const { photo, name, designation, eduQualification, subject } = teacher;
 
@@ -5,13 +7,13 @@ const Teacher = ({ teacher }) => {
     <div className="card bg-base-100 w-full shadow-xl">
       <figure className="px-10 pt-10">
         <img
-          src="https://img.daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.webp"
-          alt="Shoes"
-          className="rounded-xl"
+          src={photo ? photo : imageNotFound}
+          alt="Tea"
+          className="rounded-full border-2 border-green-300"
         />
       </figure>
       <div className="card-body items-center text-center">
-        <h2 className="card-title">{name}</h2>
+        <h2 className="card-title font-extrabold">{name}</h2>
         <h2 className="font-bold">{designation}</h2>
         <h2 className="font-bold">{subject}</h2>
         <p className="">{eduQualification}</p>

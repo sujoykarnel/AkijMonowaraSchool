@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logo_Img from "../../assets/LOGO.png";
+import logo_Img from "../../assets/others/logo.png";
 const PageNotFound = () => {
   return (
     <div className="min-h-screen flex items-center justify-center">

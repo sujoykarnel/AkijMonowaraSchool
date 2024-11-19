@@ -6,6 +6,7 @@ import Contact from "../Pages/Contact/Contact/Contact";
 import Gallery from "../Pages/Gallery/Gallery/Gallery";
 import AboutUs from "../Pages/AboutUs/AboutUs/AboutUs";
 import Academic from "../Pages/Academic/Academic/Academic";
+import Admission from "../Pages/Admission/Admission/Admission";
 
 export const router = createBrowserRouter(
   [
@@ -33,6 +34,10 @@ export const router = createBrowserRouter(
         {
           path: "/academic",
           element: <Academic />,
+        },
+        {
+          path: "/admission",
+          element: <Admission />,
         },
       ],
     },

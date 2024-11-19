@@ -1,11 +1,13 @@
 import AimOfSchool from "../AimOfSchool/AimOfSchool";
+import SchoolUnits from "../SchoolUnits/SchoolUnits";
 
 
 const AboutUs = () => {
     return (
         <div>
             
-            <AimOfSchool/>
+            <AimOfSchool />
+            <SchoolUnits/>
         </div>
     );
 };
