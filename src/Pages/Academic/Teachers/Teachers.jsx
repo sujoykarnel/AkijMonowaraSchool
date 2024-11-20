@@ -2,8 +2,7 @@ import SectionTitle from "../../../components/SectionTitle/SectionTitle";
 import Teacher from "../Teacher/Teacher";
 
 const Teachers = () => {
-
-    // All Teachers list
+  // All Teachers list
   const allTeachers = [
     {
       id: 1,

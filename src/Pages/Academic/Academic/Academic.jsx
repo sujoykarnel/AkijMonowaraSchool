@@ -1,13 +1,17 @@
+import { Helmet } from "react-helmet-async";
 import AllClass from "../AllClass/AllClass";
 import Teachers from "../Teachers/Teachers";
 
 
 const Academic = () => {
     return (
-        <div>
-            <AllClass/>
-            <Teachers/>
-        </div>
+      <div>
+        <Helmet>
+          <title>Academic | AMS</title>
+        </Helmet>
+        <AllClass />
+        <Teachers />
+      </div>
     );
 };
 

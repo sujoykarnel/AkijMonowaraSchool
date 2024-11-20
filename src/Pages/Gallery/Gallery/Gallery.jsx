@@ -1,9 +1,13 @@
+import { Helmet } from "react-helmet-async";
 import SchoolBuilding from "../SchoolBuilding/SchoolBuilding";
 
 const Gallery = () => {
   return (
     <div>
-      <SchoolBuilding/>
+      <Helmet>
+        <title>Gallery | AMS</title>
+      </Helmet>
+      <SchoolBuilding />
     </div>
   );
 };
