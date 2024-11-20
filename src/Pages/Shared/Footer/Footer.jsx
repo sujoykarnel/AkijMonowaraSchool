@@ -41,17 +41,22 @@ const Footer = () => {
         <nav>
           <h6 className="footer-title">Contact</h6>
           <p>
-            <FaPhoneVolume className="inline" /> Mobile No: +8801733190417
+            <FaPhoneVolume className="inline" /> +8801733190417
           </p>
           <p>
-            <GiRotaryPhone className="inline" /> Hotline No: +8801313014644
+            <GiRotaryPhone className="inline" /> +8801313014644
           </p>
           <p>
-            <MdEmail className="inline" /> Email: ams@akijfood.com
+            <MdEmail className="inline" /> ams@akijfood.com
           </p>
           <p>
-            <FaSquareFacebook className="inline" /> Facebook: Akij-Monowara
-            School
+            <Link
+              target="_blank"
+              to="https://www.facebook.com/AkijMonowaraSchool"
+            >
+              <FaSquareFacebook className="inline" />{" "}
+              facebook.com/AkijMonowaraSchool
+            </Link>
           </p>
         </nav>
       </footer>
