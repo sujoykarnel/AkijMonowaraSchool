@@ -19,7 +19,7 @@ const Teachers = () => {
       eduQualification:
         "B.A. (Hons), M. A. (Arabic Language & Islamic Studies), Fazil  & Kamil (Hadith)",
       subject: "Spoken Arabic",
-      photo: "",
+      photo: "/src/assets/teachers/mdSamsulArefin.jpg",
     },
     {
       id: 3,
@@ -27,7 +27,7 @@ const Teachers = () => {
       designation: "Assistant Teacher",
       eduQualification: "Hifzul Quran",
       subject: "Hifzul Quran",
-      photo: "",
+      photo: "/src/assets/teachers/mdMahadiHasan.jpg",
     },
     {
       id: 4,
@@ -35,15 +35,15 @@ const Teachers = () => {
       designation: "Assistant Teacher",
       eduQualification: "B.Sc (Hons), M.Sc ( Mathematics)",
       subject: "Mathematics",
-      photo: "",
+      photo: "/src/assets/teachers/mirMufidulAlam.jpg",
     },
     {
       id: 5,
       name: "Md. Hasanat Reza Himel",
       designation: "Assistant Teacher",
-      eduQualification: "Hifzul Quran, Dawra-e-Hadith)",
+      eduQualification: "Hifzul Quran, Dawra-e-Hadith",
       subject: "Maktab",
-      photo: "",
+      photo: "/src/assets/teachers/mdHasanatReza.jpg",
     },
     {
       id: 6,
@@ -51,7 +51,7 @@ const Teachers = () => {
       designation: "Assistant Teacher",
       eduQualification: "B.A. (Hons), M.A. (Arabic)",
       subject: "Islam & Moral Education",
-      photo: "",
+      photo: "/src/assets/teachers/mdMostafijurRahman.jpg",
     },
     {
       id: 7,
@@ -59,7 +59,7 @@ const Teachers = () => {
       designation: "Assistant Teacher",
       eduQualification: "B.Sc (Hons), M.Sc (Physics)",
       subject: "Science",
-      photo: "",
+      photo: "/src/assets/teachers/mehrabHossain.jpg",
     },
     {
       id: 8,

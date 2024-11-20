@@ -13,10 +13,10 @@ const Teacher = ({ teacher }) => {
         />
       </figure>
       <div className="card-body items-center text-center">
-        <h2 className="card-title font-extrabold">{name}</h2>
-        <h2 className="font-bold">{designation}</h2>
-        <h2 className="font-bold">{subject}</h2>
-        <p className="">{eduQualification}</p>
+        <h2 className="card-title font-extrabold text-green-700">{name}</h2>
+        <h2 className="font-bold text-green-600">{designation}</h2>
+        <h2 className="font-bold text-green-600">{subject}</h2>
+        <p className="text-green-600">{eduQualification}</p>
         {/* <div className="card-actions">
           <button className="btn btn-primary">View Profile</button>
         </div> */}

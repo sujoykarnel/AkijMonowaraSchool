@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet-async";
 import AdmissionBanner from "../AdmissionBanner/AdmissionBanner";
-import Forms from "../Forms/Forms";
+import Forms from "../AdmissionForms/AdmissionForms";
 
 const Admission = () => {
     return (

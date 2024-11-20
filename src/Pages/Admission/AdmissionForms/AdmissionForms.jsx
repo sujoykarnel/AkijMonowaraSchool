@@ -2,12 +2,18 @@ import { Link } from "react-router-dom";
 import SectionTitle from "../../../components/SectionTitle/SectionTitle";
 import { FaFileDownload } from "react-icons/fa";
 
-const Forms = () => {
-  const allForms = [
+const AdmissionForms = () => {
+  const allAdmissionForms = [
     {
       id: 1,
-      name: "Admission Form",
+      name: "ভর্তি ফর্ম (সাধারণদের জন্য)",
       filePath: "/src/assets/files/Admission_Form.pdf",
+      uploadDate: "2024-11-19",
+    },
+    {
+      id: 2,
+      name: "ভর্তি ফর্ম (এতিমদের জন্য)",
+      filePath: "/src/assets/files/Admission_Form_Orphan.pdf",
       uploadDate: "2024-11-19",
     },
   ];
@@ -20,7 +26,9 @@ const Forms = () => {
           <thead className=" bg-green-400 ">
             <tr>
               <th className="border border-green-300 md:columns-2 ">SL</th>
-              <th className="border border-green-300 md:columns-6 ">Form Name</th>
+              <th className="border border-green-300 md:columns-6 ">
+                Form Name
+              </th>
               <th className="border border-green-300 md:columns-2 ">
                 Upload Date
               </th>
@@ -28,7 +36,7 @@ const Forms = () => {
             </tr>
           </thead>
           <tbody>
-            {allForms.map((row, index) => {
+            {allAdmissionForms.map((row, index) => {
               return (
                 <tr key={row.id} className="ps-4">
                   <td className="border border-green-300 ">{index + 1}</td>
@@ -49,4 +57,4 @@ const Forms = () => {
   );
 };
 
-export default Forms;
+export default AdmissionForms;

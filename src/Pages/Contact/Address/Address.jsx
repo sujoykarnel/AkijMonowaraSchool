@@ -36,8 +36,7 @@ const Address = () => {
               <MdEmail className="inline" /> Email: ams@akijfood.com
             </p>
             <p>
-              <FaSquareFacebook className="inline" /> Facebook: Akij-Monowara
-              School
+              <FaSquareFacebook className="inline" /> Facebook: facebook.com/AkijMonowaraSchool
             </p>
           </div>
         </div>
